@@ -1,4 +1,20 @@
-# This script contains the data analysis performed unsing linear mixed models.
+####################################################################################################
+#
+#   Functional Data Analysis (FDA) - Case study on Diphthong/Hiatus contrast in European Spanish 
+#
+#	Michele Gubian (PhD)
+#	Centre for Language and Speech Technology
+#	Radboud University Nijmegen
+#	email: m.gubian@let.ru.nl, michele.gubian@gmail.com
+#	website on FDA: http://lands.let.ru.nl/FDA
+#
+#	Licensed under GPLv3 (See http://www.gnu.org/licenses/gpl-3.0.html)
+#
+#   This script allows one to reproduce the linear mixed effects models-based data analysis described in the paper:
+#   "Using Functional Data Analysis for investigating multidimensional dynamic phonetic contrasts" by M. Gubian, F. Torreira and L. Boves. 
+#   A draft version of the paper is available in the paper/ directory.
+#
+####################################################################################################
 
 library(fda)
 library(lattice)
