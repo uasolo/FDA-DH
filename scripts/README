@@ -1,0 +1,23 @@
+FDA-DH:	Functional Data Analysis - Case study on Diphthong/Hiatus contrast in European Spanish 
+Author: Michele Gubian
+Date: Dec 12th 2013
+
+The scripts/ directory contains a number of R scripts that allow you to reproduce the case study described in the paper:
+"Using Functional Data Analysis for investigating multidimensional dynamic phonetic contrasts" by M. Gubian, F. Torreira and L. Boves. 
+A draft version of the paper is available in the paper/ directory.
+** Please read the paper first **
+
+There are three data analysis scripts:
+1) FDA.R : contains FDA on f0 and formants. Its input is the data contained in the data/ directory.
+2) DA.R : contains the data analysis based on the results of FDA.R (PC scores), namely (generalised) linear models, t-tests, conditional inference trees.
+3) DA_MM.R : contains the alternative data analysis reported in the Appendix, based on the results of FDA.R (PC scores), namely linear mixed effects models. 
+
+The other scripts (landmarkreg.nocurve.R, pca.fd.R, plot.pca.fd.corr.R) are utilities used (sourced) by FDA.R. The FDA.RImage file is an image of the working environment after the complete execution of FDA.R. It can happen that e.g. due to differences in R packages you get slightly different results than those reported in the paper and recorded in FDA.RImage.
+
+The R scripts have been executed in a linux environment using R version 3.0.2, but older versions are also ok. You need to have at least 'fda' and 'lattice' R packages installed (see library() commands in the scripts). 
+
+The scripts are meant to be executed step by step, copying a piece of code at the time to the command window or to your own copy of the script and try to understand the procedure. Please send me questions and comments! 
+
+
+
+
