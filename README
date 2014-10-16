@@ -3,12 +3,17 @@ FDA-DH:	Functional Data Analysis - Case study on Diphthong/Hiatus contrast in Eu
 	Michele Gubian (PhD)
 	Centre for Language and Speech Technology
 	Radboud University Nijmegen
-	email: m.gubian@let.ru.nl, michele.gubian@gmail.com
+	email: michele.gubian@gmail.com, mm14722@bristol.ac.uk
 	website on FDA: http://lands.let.ru.nl/FDA
 
 	Licensed under GPLv3 (See http://www.gnu.org/licenses/gpl-3.0.html)
 
 This is a collection of R scripts and data that allows one to reproduce the case study described in the paper:
 "Using Functional Data Analysis for investigating multidimensional dynamic phonetic contrasts" by M. Gubian, F. Torreira and L. Boves. 
-A draft version of the paper is available in the paper/ directory.
-Please consult the scripts/README file to get started.
+
+Please consult the scripts/README file to get started. It is recommended to read the main paper first, in particular Sec. 3 and Appendix A.
+
+In paper/ you find a draft version of the paper (FDA-DH-paper) and supplementary materials:
+- FDA-DH-Additional_Material is a collection of plots not shown in the main paper
+- TimeRegistration is an extended comment on issues concerning time registration of signals (e.g. f0).
+
