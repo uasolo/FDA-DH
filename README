@@ -22,4 +22,5 @@ Please consult the scripts/README file to get started. It is recommended to read
 In paper/ you find a draft version of the paper (FDA-DH-paper) and supplementary materials:
 - FDA-DH-Additional_Material is a collection of plots not shown in the main paper
 - TimeRegistration is an extended comment on issues concerning time registration of signals (e.g. f0).
+- commands_FDA is a short user guide detailing the most relevant fda commands.
 
