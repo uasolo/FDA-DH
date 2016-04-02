@@ -5,8 +5,8 @@ Basically you only need R. However, several users have reported problem in the
 execution of the script landmarkreg.nocurve.R. 
 
 The solution seems to be simply to install an older version of the fda
-package. (Aapparently the authors of the fda package have change the code breaking backward compatibility AND without saying anything in any comment log or
-anything.)
+package.
+(Aapparently the authors of the fda package have changed the code breaking backward compatibility without saying anything in any comment log.)
 
 The quick fix is to install  fda_2.4.0  instead of fda_2.4.3
 This can be done easily by downloading the tar.gz from CRAN:
