@@ -1,26 +1,6 @@
-FDA-DH:	Functional Data Analysis - Case study on Diphthong/Hiatus contrast in European Spanish 
+## Functional Data Analysis - Case study on Diphthong/Hiatus contrast in European Spanish 
 
-	Michele Gubian (PhD)
-	formerly at:
-	Centre for Language and Speech Technology
-	Radboud University Nijmegen
+** This code base is obsolete and no longer maintained **
 
-	currently at:
-	School of Experimental Psychology
-	University of Bristol, UK
-
-	email: michele.gubian@gmail.com, mm14722@bristol.ac.uk
-	website on FDA: http://lands.let.ru.nl/FDA
-
-	Licensed under GPLv3 (See http://www.gnu.org/licenses/gpl-3.0.html)
-
-This is a collection of R scripts and data that allows one to reproduce the case study described in the paper:
-"Using Functional Data Analysis for investigating multidimensional dynamic phonetic contrasts" by M. Gubian, F. Torreira and L. Boves. 
-
-Please consult the scripts/README file to get started. It is recommended to read the main paper first, in particular Sec. 3 and Appendix A.
-
-In paper/ you find a draft version of the paper (FDA-DH-paper) and supplementary materials:
-- FDA-DH-Additional_Material is a collection of plots not shown in the main paper
-- TimeRegistration is an extended comment on issues concerning time registration of signals (e.g. f0).
-- commands_FDA is a short user guide detailing the most relevant fda commands.
+For an up-to-date repository on the topic, see [this page](https://github.com/uasolo/FPCA-phonetics-workshop)
 
